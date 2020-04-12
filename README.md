@@ -28,10 +28,12 @@ Pego de Rocketseat **[Desafio03](https://github.com/Rocketseat/bootcamp-gostack-
   <a href="#memo-licença">Licença</a>
 </p>
 
-<!-- ## :question: Como rodar o desafio
+## :question: Como rodar o desafio
 
 - Clonar repositório
-- rodar o comando `yarn` para fazer a instalação das dependencias -->
+- Rodar o comando `yarn` para fazer a instalação das dependencias
+- Caso queira rodar a aplicação, você deve clonar e rodar o **[Backend](https://github.com/rafael399/gostack-desafio02)** e depois rodar o comando `yarn start` na pasta da da aplicação
+- Caso queira rodar apenas os testes automatizados, rode o comando `yarn test`
 
 ## :rocket: Sobre o desafio
 

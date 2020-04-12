@@ -8,14 +8,30 @@ body {
   font-size: 14px;
 }
 
-div {
+.container {
   width: 100%;
-  margin: 20px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
 }
 
-div li {
+.content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.content li {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.content li span {
+  margin-right: 15px;
 }
 
 div li + li {
@@ -23,17 +39,24 @@ div li + li {
 }
 
 button {
-  background: #7159c1;
+  background: #ca4949;
   color: #fff;
   border: 0;
+  border-radius: 4px;
   padding: 10px 15px;
   cursor: pointer;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  outline: none;
+  transition: filter 0.2s;
 }
 
-div li button {
-  margin: 0 15px;
-  background: #ca4949;
+ul + button {
+  background: #7159c1;
+  margin: 15px 0;
+  width: 100%;
+}
+
+button:hover {
+  filter: brightness(85%);
 }
